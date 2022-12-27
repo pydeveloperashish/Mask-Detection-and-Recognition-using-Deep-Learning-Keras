@@ -20,7 +20,7 @@ weightsPath=os.path.sep.join([r'C:\Python37\Projects\face-mask-detector\face_det
 net=cv2.dnn.readNet(prototxtPath,weightsPath)
 
 
-model=load_model(r'C:\Python37\Projects\face-mask-detector\mobilenet_v2.model')
+model=load_model(r'C:\Python37\Projects\face-mask-detector\mask_detector.model')
 
 image=cv2.imread(r'C:\Python37\Projects\face-mask-detector\examples\example_03.png')
 
